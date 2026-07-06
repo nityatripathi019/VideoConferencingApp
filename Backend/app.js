@@ -3,7 +3,7 @@ import { createServer } from "node:http";
 import { Server } from "socket.io";
 import mongoose from "mongoose";
 import cors from "cors";
-
+import userRoutes from "./src/view/userRoutes.js";
 
 const app = express();
 const port = 8080;
