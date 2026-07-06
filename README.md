@@ -1,4 +1,4 @@
-Video Conferencing Website
+## Video Conferencing Website
 
 A full-stack Video Conferencing Web Application that enables users to create secure meeting rooms, join video calls, chat in real time, and collaborate seamlessly. Built using modern web technologies with real-time communication powered by WebRTC and Socket.IO.
 
@@ -33,7 +33,11 @@ Real-Time Communication
 WebRTC
 STUN/TURN Servers
 Socket.IO
-📂 Project Structure
+
+
+## 📁 Project Structure
+
+```text
 video-conferencing-app/
 │
 ├── client/
@@ -48,10 +52,14 @@ video-conferencing-app/
 │   ├── middleware/
 │   ├── socket/
 │   ├── config/
-│   └── server.js
+│   ├── server.js
+│   └── package.json
 │
 ├── README.md
-└── package.json
+├── package.json
+└── .gitignore
+```
+
 ⚙️ Installation
 Clone the repository
 git clone https://github.com/yourusername/video-conferencing-app.git
@@ -130,9 +138,7 @@ git commit -m "Add New Feature"
 Push to the branch
 git push origin feature/NewFeature
 Open a Pull Request
-📄 License
 
-This project is licensed under the MIT License.
 
 👨‍💻 Author
 
