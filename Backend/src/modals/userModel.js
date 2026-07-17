@@ -7,8 +7,15 @@ const userSchema = new Schema({
     type: String,
     required: true,
   },
-  username: { type: String, required: true, unique: true },
-  password: { type: String, reuired: true },
+  username: {
+    type: String,
+    required: true,
+    unique: true
+  },
+  password: {
+    type: String,
+    required: true
+  },
   token: { type: String }
 
 })
