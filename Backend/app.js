@@ -50,19 +50,11 @@ app.get("/home", (req, res) => {
 })
 
 
-io.on('connection', (socket) => {
-  console.log('a user connected');
-});
+// io.on('connection', (socket) => {
+//   console.log('a user connected');
+// });
 
 
-
-
-
-
-
-
-
-
-app.listen(port, () => {
+server.listen(port, () => {
   console.log("listening on port 8080");
 })
