@@ -5,6 +5,10 @@ import mongoose from "mongoose";
 import cors from "cors";
 import userRoutes from "./src/view/userRoutes.js";
 import { User } from "./src/modals/userModel.js";
+import { socketController } from "./src/controllers/socketController.js";
+
+
+
 const app = express();
 const port = 8080;
 const server = createServer(app);
